@@ -18,7 +18,7 @@ class XylophoneApp extends StatelessWidget {
       },
       child: const SizedBox(
         width: double.infinity,
-        height: 35.0,
+        height: 80.0,
       ),
     );
   }
@@ -29,6 +29,7 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               buildKey(color: Colors.red, soundNumber: 1),
               buildKey(color: Colors.green, soundNumber: 2),
